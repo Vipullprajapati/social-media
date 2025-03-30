@@ -1,17 +1,17 @@
 import React from "react";
 import "./topbar.css";
-import {Search,Person} from "@mui/icons-material";
+import { Search, Person, Chat, Notifications } from "@mui/icons-material";
 
 export default function Topbar() {
   return (
     <div className="topbarContainer">
       <div className="topbarLeft">
-        <span className="logo">lamasocial</span>
+        <span className="logo">VIPsocial</span>
       </div>
       <div className="topbarCenter">
         <div className="searchbar">
-          <Search />
-          <input className="searchIput" placeholder="Search..." />
+          <Search className="searchIcon" />
+          <input className="serchInput" placeholder="Search..." />
         </div>
       </div>
       <div className="topbarRight">
@@ -25,6 +25,19 @@ export default function Topbar() {
             <span className="topbarIconBadge">1</span>
           </div>
         </div>
+        <div className="topbarIcon">
+          <div className="topbarIconItem">
+            <Chat />
+            <span className="topbarIconBadge">2</span>
+          </div>
+        </div>
+        <div className="topbarIcon">
+          <div className="topbarIconItem">
+            <Notifications />
+            <span className="topbarIconBadge">1</span>
+          </div>
+        </div>
+        <img src="/assets/profile.png" alt="" className="topbarImg" />
       </div>
     </div>
   );
