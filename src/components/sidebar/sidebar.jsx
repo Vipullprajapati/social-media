@@ -60,6 +60,34 @@ export default function Sidebar() {
                 <img src="https://avatars.githubusercontent.com/u/10183678?v=4" alt="profile"  className="sidebarFriendImg"/>
                 <span className="sidebarFriendName">John Doe</span>
             </li>
+            <li className="sidebarFriend">
+                <img src="https://avatars.githubusercontent.com/u/10183678?v=4" alt="profile"  className="sidebarFriendImg"/>
+                <span className="sidebarFriendName">John Doe</span>
+            </li>
+            <li className="sidebarFriend">
+                <img src="https://avatars.githubusercontent.com/u/10183678?v=4" alt="profile"  className="sidebarFriendImg"/>
+                <span className="sidebarFriendName">John Doe</span>
+            </li>
+            <li className="sidebarFriend">
+                <img src="https://avatars.githubusercontent.com/u/10183678?v=4" alt="profile"  className="sidebarFriendImg"/>
+                <span className="sidebarFriendName">John Doe</span>
+            </li>
+            <li className="sidebarFriend">
+                <img src="https://avatars.githubusercontent.com/u/10183678?v=4" alt="profile"  className="sidebarFriendImg"/>
+                <span className="sidebarFriendName">John Doe</span>
+            </li>
+            <li className="sidebarFriend">
+                <img src="https://avatars.githubusercontent.com/u/10183678?v=4" alt="profile"  className="sidebarFriendImg"/>
+                <span className="sidebarFriendName">John Doe</span>
+            </li>
+            <li className="sidebarFriend">
+                <img src="https://avatars.githubusercontent.com/u/10183678?v=4" alt="profile"  className="sidebarFriendImg"/>
+                <span className="sidebarFriendName">John Doe</span>
+            </li>
+            <li className="sidebarFriend">
+                <img src="https://avatars.githubusercontent.com/u/10183678?v=4" alt="profile"  className="sidebarFriendImg"/>
+                <span className="sidebarFriendName">John Doe</span>
+            </li>
         </ul>
       </div>
     </div>
